@@ -15,7 +15,7 @@ let users = {};
 client.on('message', (channel, tags, message, self) => {
 if(self) return;
     if(username === client.channels) {
-        if(message === 'insert message here') {
+        if(message === '') { // put your message here
             // do something based off message streamer wants to listen for
         }
     }
